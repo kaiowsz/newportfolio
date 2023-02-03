@@ -1,0 +1,27 @@
+$BACKGROUND: #ECF0F3;
+$MAIN_COLOR: #1F2937;
+$MAIN_PURPLE: #5651E5;
+$SECOND_PURPLE: #709DFF;
+$SHADOW_GRAY_400: #9ca3af;
+
+$SMALL: 580px;
+$MEDIUM: 768px;
+$LARGE: 1024px;
+$XL_LARGE: 1280px;
+$XL_LARGE2: 1536px;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background: $BACKGROUND;
+}
