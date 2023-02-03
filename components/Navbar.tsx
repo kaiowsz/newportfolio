@@ -32,13 +32,13 @@ function Navbar() {
   ]
 
   return (
-    <div className="navbar">
+    <section className="navbar">
       <div className="navbar-container">
         <Link href="/" className="navbar-title">Ks</Link>
         
         <nav>
             {data.map(item => (
-              <LinkScroll className="link" key={item.id} to={item.id}>{item.title}</LinkScroll>
+              <LinkScroll className="link" key={item.id} to={item.id} smooth duration={400}>{item.title}</LinkScroll>
               ))}
         </nav>
 
@@ -63,7 +63,7 @@ function Navbar() {
 
                 <nav>
                   {data.map(item => (
-                    <LinkScroll onClick={() => setOpenMenu(!openMenu)} className="link" key={item.id} to={item.id}>{item.title}</LinkScroll>
+                    <LinkScroll onClick={() => setOpenMenu(!openMenu)} className="link" key={item.id} to={item.id} smooth duration={400}>{item.title}</LinkScroll>
                   ))}
                 </nav>
 
@@ -93,7 +93,7 @@ function Navbar() {
       </div>
 
 
-    </div>
+    </section>
   )
 }
 

@@ -1,0 +1,57 @@
+@import "globals";
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    .about-content {
+        max-width: 1240px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        @media screen and (max-width: $MEDIUM) {
+            flex-direction: column;
+        }
+    }
+
+    .about-text {
+        color: $MAIN_COLOR;
+        padding-left: .6rem;
+        text-align: left;
+
+
+        span {
+            color: $MAIN_PURPLE;
+            font-size: 20px;
+            letter-spacing: 2px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            line-height: 26px;
+        }
+    }
+
+    .about-image {
+        img {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    .link {
+        display: inline-block;
+        text-decoration: underline;
+        margin-top: 2rem;
+    }
+}

@@ -6,15 +6,72 @@
     text-align: center;
 
     .main-container {
-        width: 100%;
+        width: 90%;
         max-width: 1240px;
         height: 100vh;
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        .main-content {
+            color: $MAIN_COLOR;
+            
+            p {
+                letter-spacing: 2px;
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 65px;
+                margin-bottom: 10px;
+                @media screen and (max-width: $MEDIUM) {
+                    font-size: 45px;
+                }
+            }
+
+            span {
+                color: $MAIN_PURPLE;
+            }
+
+            .description {
+                letter-spacing: 0;
+                font-size: 16px;
+                line-height: 26px;
+                width: 70%;
+                margin: 16px auto;
+                text-align: center;
+
+                @media screen and (max-width: $MEDIUM) {
+                    width: 95%;
+                }
+            }
+        }
+
+        .main-icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 400px;
+            margin-top: 50px;
+            margin: auto;
+
+            .main-link-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $MAIN_COLOR;
+                width: 60px;
+                margin-left: 20px;
+                border-radius: 50%;
+                height: 60px;
+                padding: 1rem;
+                box-shadow: 0 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+                transition: all .4s;
+            }
+            .main-link-icon:hover {
+                scale: 1.1;
+            }
+        }
     }
-
-
-
 }
