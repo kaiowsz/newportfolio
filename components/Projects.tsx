@@ -9,7 +9,7 @@ function Projects() {
             imgSrc: "/assets/projects/notesz.png",
             title: "Notesz",
             tech: "ReactJS",
-            linkHref: "/",
+            linkHref: "/notesz",
         },
         {
             id: 2,

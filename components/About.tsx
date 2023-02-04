@@ -14,7 +14,7 @@ function About() {
 
                 I&apos;m able to create your design, making it totally harmonious. I can also develop all parts of your web application from scratch, focusing in deliver the best work possible.</p>
 
-                <Link to="projects" className="link">Check out some of my projects</Link>
+                <Link smooth duration={400} to="projects" className="link">Check out some of my projects</Link>
             </div>
 
             <div className="about-image">
