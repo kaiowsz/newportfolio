@@ -79,15 +79,17 @@ function Skills() {
   return (
     <section className="skills">
         <div className="skills-content">
-            <span>Skills</span>
-            <h2>What I can do</h2>
-            <div className="techs">
-            { techs.map(tech => (
-                        <div key={tech.id} className={`tech rainbow ${tech.border}`} style={{color: `${tech.style}`}}>
-                            <img src={tech.src} alt={tech.name} loading="lazy" />
-                            <p>{tech.name}</p>
-                        </div>
-            ))}
+            <div className="skills-tech">
+                <span>SKILLS</span>
+                <h2>What I can do</h2>
+                <div className="techs">
+                { techs.map(tech => (
+                            <div key={tech.id} className={`tech rainbow ${tech.border}`} style={{color: `${tech.style}`}}>
+                                <img src={tech.src} alt={tech.name} loading="lazy" />
+                                <p>{tech.name}</p>
+                            </div>
+                ))}
+                </div>
             </div>
         </div>
     </section>

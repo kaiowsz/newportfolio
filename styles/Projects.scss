@@ -1,0 +1,105 @@
+@import "globals";
+
+.projects {
+    width: 100%;
+
+    .projects-container {
+        max-width: 1240px;
+        margin: auto;
+        padding: 4rem .5rem;
+
+        span {
+            color: $MAIN_PURPLE;
+            font-size: 20px;
+            letter-spacing: 2px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .projects-items {
+            display: grid;
+            gap: 1rem;
+
+            @media screen and (min-width: $MEDIUM) {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .project-item {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                box-shadow: 0 20px 25px -5px #9ca3af, 0 8px 10px -6px #9ca3af;
+                border-radius: 10px;
+
+                .project-text {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    translate: -50% -50%;
+                    display: none;
+                    color: $BACKGROUND;
+                    text-align: center;
+                    h3 {
+                        font-size: 30px;
+                        letter-spacing: 0.8px;
+                    }
+                    p {
+                        margin: .7rem auto;
+                    }
+
+                    .link {
+                        text-decoration: none;
+                    }
+                    
+                    .link p {
+                        background-color: $BACKGROUND;
+                        padding: 1rem;
+                        border-radius: 8px;
+                        color: $MAIN_COLOR;
+                        font-weight: bold;
+                        text-decoration: none;
+                        font-size: 18px;
+                        transition: all .5s;
+                    }
+
+                    .link p:hover {
+                        background-color: rgb(204, 204, 204);
+                    }
+                }
+                
+                img {
+                    transition: all .4s;
+                    border-radius: 10px;
+                    width: 100%;
+                    max-height: 400px;
+                    height: 100%;
+                    object-fit: cover;
+                    opacity: 1;
+                }
+            }:hover {
+                background: linear-gradient(to bottom, $MAIN_PURPLE, $SECOND_PURPLE);
+                img {
+                    opacity: 0.1;
+                }
+                .project-text {
+                    display: block;
+                    background: none;
+
+
+                    h3, p {
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+
+}

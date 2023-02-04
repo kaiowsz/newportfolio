@@ -4,13 +4,18 @@
     width: 100%;
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
+
+    @media screen and (min-width: $MEDIUM) {
+        height: 70vh;
+    }
 
     .about-content {
         max-width: 1240px;
         margin: auto;
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 20px;
 
         @media screen and (max-width: $MEDIUM) {
@@ -53,5 +58,6 @@
         display: inline-block;
         text-decoration: underline;
         margin-top: 2rem;
+        cursor: pointer;
     }
 }

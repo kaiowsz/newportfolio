@@ -1,15 +1,46 @@
 @import "globals";
 
 .skills {
-    height: 100vh;
+    height: auto;
     width: 100%;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: $MEDIUM) {
+        height: 100vh;
+    }
+
     .skills-content {
-        max-width: 1140px;
         margin: auto;
-        display: flex;
         flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        max-width: 1240px;
+        width: 100%;
+        
+        .skills-tech {
+            text-align: left;
+            padding-left: .6rem;
+           
+           span {
+            color: $MAIN_PURPLE;
+            font-size: 20px;
+            letter-spacing: 2px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            line-height: 26px;
+        }
+    }
+
     }
 }
 
@@ -67,11 +98,17 @@
     }
 
     .techs {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 40px;
+        @media screen and (min-width: $XL_LARGE) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 80%;
+        }
         width: 100%;
+        max-width: 1240px;
+        display: flex;
+        flex-basis: content;
+        gap: 40px;
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;

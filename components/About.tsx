@@ -18,6 +18,7 @@ function About() {
             </div>
 
             <div className="about-image">
+              {/* <img src="/about.jpg" alt="" /> */}
             </div>
 
         </div>

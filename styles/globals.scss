@@ -25,3 +25,18 @@ $XL_LARGE2: 1536px;
 body {
     background: $BACKGROUND;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    cursor: pointer;
+  
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: $BACKGROUND;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: $MAIN_PURPLE;
+    transition: all 2s;
+  }

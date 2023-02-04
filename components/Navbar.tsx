@@ -22,8 +22,8 @@ function Navbar() {
       id: "skills",
     },
     {
-      title: "PROJECT",
-      id: "project"
+      title: "PROJECTS",
+      id: "projects"
     },
     {
       title: "CONTACT",
