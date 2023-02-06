@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -7,6 +8,9 @@ import { RiRadioButtonFill } from "react-icons/ri"
 function Notesz() {
   return (
     <>
+    <Head>
+      <title>Kaio | Front-End Developer</title>
+    </Head>
     <Navbar/>
     <main className="page">
       <section className="page-image">

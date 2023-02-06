@@ -3,10 +3,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { RiRadioButtonFill } from "react-icons/ri"
+import Head from "next/head"
 
 function Szap() {
   return (
     <>
+    <Head>
+      <title>Kaio | Front-End Developer</title>
+    </Head>
     <Navbar />
     <main className="page">
       <section className="page-image">

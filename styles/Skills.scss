@@ -81,7 +81,7 @@
 		top: 6px;
 		width: calc(100% - 12px);
 		height: calc(100% - 12px);
-        background-color: rgb(221, 221, 221);
+        background-color: $BACKGROUND;
 		border-radius: 5px;
 	}
 }
@@ -127,6 +127,7 @@
         animation-iteration-count: infinite;
         transition: all .3s;
         cursor: pointer;
+        box-shadow: 0 10px 25px -5px #9ca3af, 0 8px 10px -6px #9ca3af;
 
         img {
             width: 40%;
@@ -160,12 +161,12 @@
 }
 .jsTech {
     &::before {
-        background-image: linear-gradient(rgb(252, 239, 53), rgb(252, 239, 53));
+        background-image: linear-gradient(rgb(221, 207, 7), rgb(252, 239, 53));
     }
 }
 .reactTech {
     &::before {
-        background-image: linear-gradient(rgb(11, 244, 252), rgb(11, 244, 252));
+        background-image: linear-gradient(rgb(21, 213, 219), rgb(11, 244, 252));
     }
 }
 .gitTech {
@@ -175,7 +176,7 @@
 }
 .githubTech {
     &::before {
-        background-image: linear-gradient(rgb(179, 176, 176), rgb(179, 179, 179));
+        background-image: linear-gradient(rgb(15, 15, 15), rgb(77, 77, 77));
     }
 }
 .nodeTech {
@@ -185,7 +186,7 @@
 }
 .typeTech {
     &::before {
-        background-image: linear-gradient(rgb(27, 91, 228), rgb(5, 70, 211));
+        background-image: linear-gradient(rgb(27, 91, 228), rgb(35, 100, 241));
     }
 }
 

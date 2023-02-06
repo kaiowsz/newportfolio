@@ -48,7 +48,7 @@ function Skills() {
         },
         {
             id: 6,
-            src: "/assets/github.png",
+            src: "/assets/github_black.png",
             name: "GitHub",
             style: "rgb(226, 226, 226)",
             border: "githubTech"
