@@ -15,10 +15,10 @@ function Szap() {
     <main className="page">
       <section className="page-image">
         <div className="page-bg"/>
-        <Image src="/assets/projects/netflixclone.png" alt="netflix clone" fill />
+        <Image src="/assets/projects/mablog.png" alt="mablog" fill />
         <div>
-          <h2>Netflix Clone</h2>
-          <p>ReactJS / SCSS</p>
+          <h2>Mablog</h2>
+          <p>NextJS / ReactJS / Tailwind CSS</p>
         </div>
       </section>
 
@@ -26,10 +26,10 @@ function Szap() {
         <div className="page-description-text">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="page-description-project">Project created to learn more of best practices of ReactJS recommended by the documentation and handling external API&apos;s. Project fully responsive.</p>
+          <p className="page-description-project">Project created to learn more of best practices of NextJS recommended by the documentation and using Sanity, that is a headless CMS to content management. Project fully responsive. </p>
           <div className="page-description-buttons">
-            <Link href="https://github.com/kaiowsz/netflix_clone" target="_blank"  className="page-description-button">CODE</Link>
-            <Link href="https://netflix-clone-kaiowsz.vercel.app/" target="_blank" className="page-description-button">DEMO</Link>
+            <Link href="https://github.com/kaiowsz/mablog" target="_blank"  className="page-description-button">CODE</Link>
+            <Link href="https://mablogg.vercel.app/" target="_blank" className="page-description-button">DEMO</Link>
           </div>
             <Link href="/" className="page-description-link">Back to the Home Page</Link>
         </div>
@@ -37,10 +37,11 @@ function Szap() {
           <h4>Technologies</h4>
           <ul>
             <li><RiRadioButtonFill/> HTML</li>
-            <li><RiRadioButtonFill/> SCSS</li>
-            <li><RiRadioButtonFill/> JavaScript</li>
+            <li><RiRadioButtonFill/> Tailwind CSS</li>
+            <li><RiRadioButtonFill/> TypeScript</li>
             <li><RiRadioButtonFill/> ReactJS</li>
-            <li><RiRadioButtonFill/> TheMovieDB (API)</li>
+            <li><RiRadioButtonFill/> NextJS</li>
+            <li><RiRadioButtonFill/> Sanity</li>
           </ul>
         </div>
       </section>
