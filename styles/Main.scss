@@ -4,6 +4,7 @@
     height: 100vh;
     width: 100%;
     text-align: center;
+    background-color: #131313;
 
     .main-container {
         width: 90%;
@@ -15,7 +16,7 @@
         align-items: center;
 
         .main-content {
-            color: $MAIN_COLOR;
+            color: $BACKGROUND;
             
             p {
                 letter-spacing: 2px;
@@ -61,12 +62,13 @@
                 justify-content: center;
                 align-items: center;
                 color: $MAIN_COLOR;
+                color: $BACKGROUND;
                 width: 60px;
                 margin-left: 20px;
                 border-radius: 50%;
                 height: 60px;
                 padding: 1rem;
-                box-shadow: 0 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+                box-shadow: 0 10px 15px -3px rgb(0, 0, 0), 0 4px 6px -4px rgb(0, 0, 0);
                 transition: all .4s;
             }
             .main-link-icon:hover {

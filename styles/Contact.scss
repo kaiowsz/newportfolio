@@ -2,6 +2,7 @@
 
 .contact {
     width: 100%;
+    background-color: #131313;
 
     .contact-container {
         max-width: 1240px;
@@ -20,6 +21,7 @@
         h2 {
             font-size: 35px;
             margin-bottom: 30px;
+            color: $BACKGROUND;
         }
 
         .contact-info {
@@ -46,8 +48,8 @@
                 padding: 40px;
                 border-radius: 15px;
                 margin: 0px;
-                box-shadow: 3px 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
-                color: $MAIN_COLOR;
+                box-shadow: 3px 10px 15px -3px $FULL_BLACK, 0 4px 6px -4px $FULL_BLACK;
+                color: $BACKGROUND;
 
                 h2 {
                     margin-top: 10px;
@@ -82,12 +84,13 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        color: $MAIN_COLOR;
+                        color: $BACKGROUND;
                         width: 60px;
                         border-radius: 50%;
                         height: 60px;
                         padding: 1rem;
-                        box-shadow: 0 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+                        box-shadow: 0 10px 15px -3px $FULL_BLACK, 0 4px 6px -4px $FULL_BLACK;
+
                         transition: all .4s;
                     }
                     .main-link-icon:hover {
@@ -98,9 +101,9 @@
 
 
             form {
-                box-shadow: 0px 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+                box-shadow: 0px 10px 15px -3px $FULL_BLACK, 0 4px 6px -4px $FULL_BLACK;
                 margin-top: 30px;
-                background-color: $BACKGROUND;
+                background-color: #131313;
                 padding: 25px;
                 border-radius: 15px;
 
@@ -111,15 +114,16 @@
                     margin-bottom: 20px;
                     font-size: 14px;
                     gap: 4px;
-                    color: $MAIN_COLOR;
+                    color: $BACKGROUND;
 
                     input {
                         height: 50px;
                         border: none;
-                        border: 2px solid rgb(221, 221, 221);
+                        border: 2px solid rgb(196, 194, 194);
                         border-radius: 8px;
                         padding-left: 7px;
                         font-size: 17px;
+                        background-color: rgb(187, 187, 187);
                     }
                 }
 
@@ -140,7 +144,8 @@
                     resize: none;
                     height: 150px;
                     border-radius: 8px;
-                    border: 2px solid rgb(221, 221, 221);
+                    border: 2px solid rgb(207, 207, 207);
+                    background-color: rgb(180, 180, 180);
                 }
                 button {
                     margin-top: 30px;
@@ -151,7 +156,7 @@
                     padding: 1rem;
                     color: white;
                     font-size: 18px;
-                    box-shadow: 3px 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+                    box-shadow: 3px 10px 15px -3px #2c2c2c, 0 4px 6px -4px #000000;
                     cursor: pointer;
                     transition: all .4s;
                 }

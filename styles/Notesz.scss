@@ -2,6 +2,9 @@
 
 .page {
     width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-color: #131313;
 
     .page-image {
         width: 100%;
@@ -32,7 +35,7 @@
             top: 50%;
             left: 20px;
             z-index: 2;
-        
+            
             h2 {
                 font-size: 35px;
                 margin-bottom: 15px;
@@ -49,7 +52,7 @@
         margin: 1rem auto;
         padding: 1rem;
         max-width: 1240px;
-        color: $MAIN_COLOR;
+        color: $BACKGROUND;
 
         @media screen and (min-width: $MEDIUM) {
             display: flex;
@@ -92,11 +95,11 @@
             }
             .page-description-link {
                 display: inline-block;
-                color: black;
+                color: rgb(161, 161, 161);
             }
         }
         .page-description-techs {
-            box-shadow: 0 20px 25px -5px #9ca3af, 0 8px 10px -6px #9ca3af;
+            box-shadow: 0 20px 25px -5px $FULL_BLACK, 0 8px 10px -6px $FULL_BLACK;
             border-radius: 10px;
 
             @media screen and (max-width: $MEDIUM) { 
@@ -118,7 +121,7 @@
                 gap: 18px;
                 padding: 1rem;
                 font-size: 14px;
-                color: $MAIN_COLOR;
+                color: $BACKGROUND;
                 margin-bottom: 10px;
                 
                 li {

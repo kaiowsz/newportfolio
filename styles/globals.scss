@@ -3,6 +3,7 @@ $MAIN_COLOR: #1F2937;
 $MAIN_PURPLE: #5651E5;
 $SECOND_PURPLE: #709DFF;
 $SHADOW_GRAY_400: #9ca3af;
+$FULL_BLACK: #000;
 
 $SMALL: 580px;
 $MEDIUM: 768px;
@@ -30,7 +31,8 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: $BACKGROUND;
+  
+  background-color: #131313;
 }
 
 ::-webkit-scrollbar-thumb {

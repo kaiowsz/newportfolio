@@ -4,32 +4,32 @@
     width: 100%;
     height: 80px;
     position: fixed;
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.2), 0 8px 10px -6px rgb(0 0 0 / 0.2);
     z-index: 10;
-
+    
     .navbar-title {
         font-family: "Great Vibes";
         font-weight: bolder;
         font-size: 2.2rem;
         user-select: none;
         cursor: pointer;
-        color: black;
+        color: rgb(255, 255, 255);
     }
     .navbar-title.open {
         display: inline-block;
         margin: 1.4rem 3rem;
     }
-
+    
     .navbar-container {
-        background: $BACKGROUND;
+        background-color: #131313;
         width: 100%;
         height: 100%;
         padding: 1.4rem 3rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: $MAIN_COLOR;
-        border-bottom: 1px solid lightgray;
+        color: $BACKGROUND;
+        border-bottom: 1px solid rgb(0, 0, 0);
 
         
 
@@ -62,7 +62,8 @@
             display: flex;
             align-items: center;
             cursor: pointer;
-            color: $MAIN_COLOR;
+            color: $BACKGROUND;
+
 
             @media screen and (min-width: $MEDIUM) {
                 display: none;
@@ -80,7 +81,7 @@
         top: 0;
         height: 100vh;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.705);
+        background-color: rgba(0, 0, 0, 0.801);
 
         .menu {
             right: 0;
@@ -92,7 +93,7 @@
         right: -100%;
         top: 0;
         height: 100%;
-        background-color: $BACKGROUND;
+        background-color: #131313;
         width: 70%;
         transition-duration: .4s;
         transition-timing-function: ease-in;
@@ -114,10 +115,12 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            box-shadow: 0 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+            box-shadow: 0 10px 15px -3px $FULL_BLACK, 0 4px 6px -4px $FULL_BLACK;
             border-radius: 50%;
             width: 40px;
             height: 40px;
+            color: $BACKGROUND;
+
         }
     }
 
@@ -130,12 +133,13 @@
 
         .link {
             cursor: pointer;
+            color: $BACKGROUND;
         }
     }
 
     .menu-text {
         font-size: 17px;
-        color: $MAIN_COLOR;
+        color: $BACKGROUND;
         display: block;
         padding-bottom: 20px;
         width: 100%;
@@ -161,7 +165,7 @@
         width: 70%;
         
         .menu-link-icon {
-            color: $MAIN_COLOR;
+            color: $BACKGROUND;
             padding: 0;
         }
 
@@ -170,7 +174,7 @@
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            box-shadow: 0 10px 15px -3px $SHADOW_GRAY_400, 0 4px 6px -4px $SHADOW_GRAY_400;
+            box-shadow: 0 10px 15px -3px $FULL_BLACK, 0 4px 6px -4px $FULL_BLACK;
             padding: 9px 12px;
             width: fit-content;
             height: fit-content;

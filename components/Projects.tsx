@@ -5,11 +5,32 @@ import Project from './Project'
 function Projects() {
     const data = [
         {
+            id: 4,
+            imgSrc: "/assets/projects/hoobank.png",
+            title: "Hoobank",
+            tech: "ReactJS",
+            linkHref: "/hoobank",
+        },
+        {
+            id: 6,
+            imgSrc: "/assets/projects/metaversus.png",
+            title: "Metaversus",
+            tech: "NextJS",
+            linkHref: "/metaversus",
+        },
+        {
             id: 1,
             imgSrc: "/assets/projects/notesz.png",
             title: "Notesz",
             tech: "ReactJS",
             linkHref: "/notesz",
+        },
+        {
+            id: 5,
+            imgSrc: "/assets/projects/netflixclone_changed.png",
+            title: "Netflix Clone",
+            tech: "ReactJS",
+            linkHref: "/netflix",
         },
         {
             id: 2,
@@ -24,27 +45,6 @@ function Projects() {
             title: "SZap",
             tech: "ReactJS",
             linkHref: "/szap",
-        },
-        {
-            id: 4,
-            imgSrc: "/assets/projects/hoobank.png",
-            title: "Hoobank",
-            tech: "ReactJS",
-            linkHref: "/hoobank",
-        },
-        {
-            id: 5,
-            imgSrc: "/assets/projects/netflixclone.png",
-            title: "Netflix Clone",
-            tech: "ReactJS",
-            linkHref: "/netflix",
-        },
-        {
-            id: 6,
-            imgSrc: "/assets/projects/metaversus.png",
-            title: "Metaversus",
-            tech: "NextJS",
-            linkHref: "/metaversus",
         },
     ]
 

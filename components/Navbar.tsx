@@ -55,7 +55,7 @@ function Navbar() {
                 <div className="menu-navbar">
                     <Link href="/" className="navbar-title">Ks</Link>
                     <div className={`icon-toggle-menu`} onClick={() => setOpenMenu(!openMenu)}>
-                      <AiOutlineClose size={16}/>
+                      <AiOutlineClose size={18} />
                     </div>
                 </div>
 
