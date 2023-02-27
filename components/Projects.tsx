@@ -19,18 +19,18 @@ function Projects() {
             linkHref: "/metaversus",
         },
         {
-            id: 1,
-            imgSrc: "https://raw.githubusercontent.com/kaiowsz/cryptocurrencies/main/public/chart.png",
-            title: "Cryptoverse",
-            tech: "NextJS",
-            linkHref: "/cryptoverse",
-        },
-        {
             id: 3,
             imgSrc: "/assets/projects/szap.png",
             title: "SZap",
             tech: "ReactJS",
             linkHref: "/szap",
+        },
+        {
+            id: 5,
+            imgSrc: "/assets/projects/skblog.png",
+            title: "SK Blog",
+            tech: "NextJS",
+            linkHref: "/skblog",
         },
         {
             id: 2,
@@ -40,11 +40,11 @@ function Projects() {
             linkHref: "/ecommerce",
         },
         {
-            id: 5,
-            imgSrc: "/assets/projects/mablog.png",
-            title: "Mablog",
+            id: 1,
+            imgSrc: "https://raw.githubusercontent.com/kaiowsz/cryptocurrencies/main/public/chart.png",
+            title: "Cryptoverse",
             tech: "NextJS",
-            linkHref: "/mablog",
+            linkHref: "/cryptoverse",
         },
     ]
 
